@@ -70,7 +70,7 @@ public class Board {
 							String textDeleteNum = scanner.next();
 							boolean index = false;
 							
-							for(int i = 0; i < posts.size(); i = i++) {
+							for(int i = 0; i < posts.size(); i++) {
 								Post textIndex = posts.get(i);
 								
 								if(Integer.toString(textIndex.no).equals(textDeleteNum)) {
